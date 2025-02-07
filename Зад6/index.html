@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Форма</title>
+    </head>
+    <body>
+        <form name="anketa" style="width: 550px;">
+            <fieldset>
+                <legend>Форма</legend>
+                <fieldset>
+                    <legend>Анкета пользователя</legend>
+                    <p>Введите имя: <em>*</em> <input type="text" name="firstname" placeholder="Например, Павел" required></p>
+                    <p>Введите номер телефона: <em>*</em> <input type="tel" name="telnum" placeholder="+7 911 976 32 43" required></p>
+                    <p>Введите номер email: <em>*</em> <input type="email" name="email" required></p>
+                    <p>Дата вашего рождения: <em>*</em> <input type="date" name="birthday" required></p>
+                    <p>Введите пароль: <em>*</em> <input type="password" name="pass" required></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Ваши предпочтения</legend>
+                    <p>Ваш любимый жанр книг:</p>
+                    <input type="radio" name="opt" value="horrors">Ужасы
+                    <input type="radio" name="opt" value="Drama">Драма
+                    <input type="radio" name="opt" value="Fantasy">Фентези
+                    <p>Выберите автора:</p>
+                    <select name="autors" size="3">
+                        <option value="Павел">Павел Алинский</option>
+                        <option value="ПавелII">Павел Алинский II</option>
+                        <option value="ПавелIII">Павел Алинский III</option>
+                        <option value="ПавелIV">Павел Алинский IV</option>
+                    </select>
+                    <p>Выберите купон <input type="file"></p>
+                    <p>Введите комментарий<br><textarea name="coment" rows="5" cols="20" maxlength="500"></textarea></p>
+                    <button type="reset">Сбросить</button><br><br>
+                    <button type="submit">Отправить</button>
+                </fieldset>
+        </fieldset>
+        </form>
+    </body>
+</html>
