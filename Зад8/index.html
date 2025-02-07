@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Пиццерия</title>
+    </head>
+    <body style="background-color:azure;">
+        <h1>Пиццерия "Минтай"</h1><hr style="width: 700px; margin-inline-start: 0px;">
+        <table style="border-style:dotted; text-align: center;background-color:antiquewhite;">
+            <caption style="text-align: left;"><b>Прайс лист</b></caption>
+            <thead>
+                <tr>
+                    <th>Наименование</th>
+                    <th>Размер</th>
+                    <th>Вес</th>
+                    <th>Состав</th>
+                    <th>Стоимость</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Пепперони</td>
+                    <td>30 см</td>
+                    <td>625 гр</td>
+                    <td>Колбаски пепперони, томатный соус, сыр</td>
+                    <td>453р</td>
+                </tr>
+                <tr>
+                    <td>Барбекю</td>
+                    <td>30 см</td>
+                    <td>756 гр</td>
+                    <td>Курица, соус барбекю, лук, сыр, томатный соус</td>
+                    <td>654р</td>
+                </tr>
+                <tr>
+                    <td>Чикен ренч</td>
+                    <td>25 см</td>
+                    <td>354 гр</td>
+                    <td>Курица, соус ренч, томаты, бекон</td>
+                    <td>234р</td>
+                </tr>
+                <tr>
+                    <td>Терияки</td>
+                    <td>35 см</td>
+                    <td>875 гр</td>
+                    <td>Курица, ветчина, соус терияки, лук</td>
+                    <td>887р</td>
+                </tr>
+                <tr>
+                    <td>Мексиканская</td>
+                    <td>30 см</td>
+                    <td>689 гр</td>
+                    <td>Говядина, халапенью, лук, сладкий перец, острый соус</td>
+                    <td>637р</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <form name="zakaz" style="width: 390px; border-style:outset; background-color: antiquewhite;">
+            <fieldset>
+                <legend>Форма заказа</legend>
+                <p>Ваше имя: <em>*</em> <input type="text" name="name" required placeholder="Павел"></p>
+                <p>Контактный номер: <em>*</em> <input type="tel" name="name" required placeholder="+7 993 987 98 23"></p>
+                <p>Адрес доставки: <em>*</em> <input type="text" name="name" required></p>
+                <fieldset>
+                    <legend>Заказ</legend>
+                    <p>
+                        <select>
+                            <option value="Пепперони">Пепперони</option>
+                            <option value="Барбекю">Барбекю</option>
+                            <option value="Чикен">Чикен ренч</option>
+                            <option value="Терияки">Терияки</option>
+                            <option value="Мексиканская">Мексиканская</option>
+                        </select>
+                        Количество: <input type="number" style="width: 35px;" value="0" min="0" max="10">
+                    </p>
+                    <p>
+                        <select>
+                            <option value="Пепперони">Пепперони</option>
+                            <option value="Барбекю">Барбекю</option>
+                            <option value="Чикен">Чикен ренч</option>
+                            <option value="Терияки">Терияки</option>
+                            <option value="Мексиканская">Мексиканская</option>
+                        </select>
+                        Количество: <input type="number" style="width: 35px;" value="0" min="0" max="10">
+                    </p>
+                    <p>
+                        <select>
+                            <option value="Пепперони">Пепперони</option>
+                            <option value="Барбекю">Барбекю</option>
+                            <option value="Чикен">Чикен ренч</option>
+                            <option value="Терияки">Терияки</option>
+                            <option value="Мексиканская">Мексиканская</option>
+                        </select>
+                        Количество: <input type="number" style="width: 35px;" value="0" min="0" max="10">
+                    </p>
+                </fieldset><br>
+                <button type="submit">Заказать</button>
+                <button type="reset">Сбросить</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
