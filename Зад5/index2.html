@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Таблицы 2</title>
+    </head>
+    <body>
+        <h1>Вложенные таблицы</h1>
+        <hr>
+        <table border="1">
+            <thead align="center">
+                <tr>
+                    <th colspan="2">Таблица</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Растровые</td>
+                    <td>
+                        <table border="1">
+                            <tr>
+                                <td>Строка 1, ячейка 1</td>
+                                <td>Строка 1, ячейка 2</td>
+                            </tr>
+                            <tr>
+                                <td>Строка 2, ячейка 1</td>
+                                <td>Строка 2, ячейка 2</td>
+                            </tr>
+                            <tr>
+                                <td>Строка 3, ячейка 1</td>
+                                <td>Строка 3, ячейка 2</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Обычная строка</td>
+                </tr>
+                <tr>
+                    <td>
+                        <table border="1">
+                            <tr>
+                                <td>Строка 1</td>
+                            </tr>
+                            <tr>
+                                <td>Строка 2</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Обычная строка</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

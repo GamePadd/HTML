@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Таблицы 1</title>
+    </head>
+    <body>
+        <h1>Элементы табличного уровня</h1>
+        <table border="1" cellspacing="0">
+            <tr>
+                <th>Тег элемента</th>
+                <th>Описание элемента</th>
+            </tr>
+            <tr>
+                <td>table</td>
+                <td>Контейнер таблицы</td>
+            </tr>
+            <tr>
+                <td>tr</td>
+                <td>Строка таблицы</td>
+            </tr>
+            <tr>
+                <td>td</td>
+                <td>Ячейка данных</td>
+            </tr>
+            <tr>
+                <td>th</td>
+                <td>Заголовочная ячейка</td>
+            </tr>
+            <tr>
+                <td>caption</td>
+                <td>Заголовок таблицы</td>
+            </tr>
+        </table>
+
+        <h1>Графические редакторы</h1>
+
+        <table border="1" cellspacing="0">
+            <thead align="center">
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="2">Свойства</th>
+                </tr>
+                <tr>
+                    <th>Название</th>
+                    <th>Описание</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Растровые</td>
+                    <td>Adobe Photoshop</td>
+                    <td>Профессиональный редактор для работы с фотоизображениями</td>
+                </tr>
+                <tr>
+                    <td>Paint</td>
+                    <td>Примитивная программа, идущая в комплекте стандартных приложений ОС Windows</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Векторные</td>
+                    <td>Adobe Illustrator</td>
+                    <td>Профессиональный редактор для создания векторной графики</td>
+                </tr>
+                <tr>
+                    <td>CoreIDRAW</td>
+                    <td>Еще один популярный редактор векторной графики</td>
+                </tr>
+                <tr>
+                    <td>Incscape</td>
+                    <td>Свободный векторный редактор для работы с форматом SVG</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1>Область применения CSS</h1>
+        <table border="1" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td>Внутри одного файла</td>
+                    <td>Распространяется на много элементов</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <table border="1" cellspacing="0">
+                            <tr>
+                                <td>Встроенные стили</td>
+                                <td>Внутренняя таблица стилей</td>
+                                <td>Внешняя таблица стилей</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
