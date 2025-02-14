@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40em;
+    margin: 0px auto;
+}
+
+h1, h2 {
+    color:#C03;
+}
+
+h3 {
+    color:green;
+}
+
+hr {
+    border: 2px #32CD32;
+    border-style:groove;
+}
+
+a {
+    color:#C03;
+}
+
+img {
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.528);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.defString {
+    color: rgb(0, 187, 0);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.xd {
+    color:#7B68EE;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.xd:hover {
+    color:#ee6868;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.xd2 {
+    color:#7B68EE;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.xd2:hover {
+    color:#ee6868;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+}
+
+dt {
+    color:#7B68EE;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.yeDots > ul > li::marker {
+    color:orange;
+}
+
+.tex {
+    width: 40em;
+    height: 10em;
+    overflow: scroll;
+    border: 3px dotted black;
+    margin: 25px 0;
+    padding: 0px;
+}
+.tex > p {
+    padding: 0px;
+    margin: 0;
+}
+
+.def {
+    width: 35em;
+    height: 17em;
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px black;
+    margin: 35px 0px 70px 0px;
+    padding: 50px;
+}

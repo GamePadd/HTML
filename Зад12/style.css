@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Tahoma, Arial;
+    width: 80em;
+    margin: 0 auto;
+    background: url(img/main_bg.png) no-repeat grey fixed;
+    background-size: cover;
+}
+
+.header {
+    background-color: rgba(0,0,255,.3);
+}
+
+.header > img {
+    width: 10em;
+    float: left;
+}
+
+.header > h1 {
+    font-size: 7em;
+    float: right;
+}
+
+.header > .nav {
+    width: 80em;
+}
+
+.header > .nav > a {
+    text-decoration: none;
+    font-size: 3em;
+    color:black;
+}
+
+.header > .nav > a:visited{
+    color:black;
+}
+
+.main {
+    background-color: rgba(0,255,0,.3);
+}
+
+.main > .section:first-child > .article{
+    position:relative;
+}
+
+.main > .section:first-child > .article > img{
+    width: 80em;
+}
+
+.main > .section:first-child > .article::before{
+    content: '<';
+    position: absolute;
+    color:black;
+    background-color: rgba(255,255,255,.3);
+    font-size: 5em;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor:pointer;
+}
+
+.main > .section:first-child > .article::after{
+    content: '>';
+    position: absolute;
+    color:black;
+    background-color: rgba(255,255,255,.3);
+    font-size: 5em;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor:pointer;
+}
+
+.main > .section:nth-child(2) {
+    background-color: rgba(255,255,0,.3);
+}
+
+.main > .section:nth-child(2) > .article{
+    display: inline-block;
+    vertical-align: top;
+    width: 20em;
+}
+
+.footer {
+    background-color: rgba(255,0,0,.3);
+}
+
+.footer > .nav {
+    display: inline-block;
+}
+
+.footer > .nav > a{
+    text-decoration: none;
+    font-size: 3em;
+    color:black;
+}
+
+.footer > .nav > a:visited{
+    color:black;
+}
+
+.footer > img {
+    width: 3.5em;
+    float:right;
+}
