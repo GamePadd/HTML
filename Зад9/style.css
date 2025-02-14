@@ -1,0 +1,25 @@
+.green_bg {
+    background-color: rgba(0,255,0,.3);
+}
+
+#italic_style {
+    font-style: italic;
+}
+
+ul > li:nth-child(1) > ul > li:first-child{
+    color:red;
+}
+
+ul > li:nth-child(odd){
+    color:blue;
+}
+
+#italic_style + li > ul > li:nth-child(2) > ul > li:first-child{
+    background-color: rgba(255,0,0,.3);
+}
+
+body > ul > li:last-child{
+    background-color: rgba(0,0,255,.3);
+}
+
+/*Возможно решение было намного проще, но чет котелок мб не доварил и я начал костыли делать) */

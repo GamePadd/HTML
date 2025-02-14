@@ -1,0 +1,63 @@
+body {
+    background-image: url(img/main_bg.png);
+    background-attachment: scroll;
+    background-repeat: repeat-y;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main-block {
+    width: 1070px;
+    margin: 0px auto;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.first-block {
+    text-align: center;
+    font-weight: bold;
+    width: 290px;
+    height: 125px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 5px white;
+    border-style: groove;
+    background-color: rgb(0,0,0);
+    background-clip: content-box;
+    margin: 15px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.second-block {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 5px red;
+    padding: 15px;
+    text-align: right;
+    margin: 15px;
+    background-image: url(img/slide1.jpg);
+    background-size: cover;
+    width: 290px;
+    height: 125px;
+    border: 10px white solid;
+    border-image: url(img/border.png) 30 round;
+}
+
+.third-block {
+    margin: 15px;
+    height: 150px;
+    width: 300px;
+    background-color: rgb(198, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 0px 5px;
+    border: 5px rgb(0, 213, 255);
+    border-style: ridge;
+    box-shadow: 10px 10px 2px rgba(0, 79, 95, 0.5);
+    overflow: scroll;
+}
