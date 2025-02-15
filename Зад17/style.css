@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 38em;
+    font-size: 25px;
+}
+
+hr {
+    border: 3px solid black;
+}
+
+.blockD {
+    width: 4em;
+    padding: 7px;
+    border-radius: 8px;
+    margin: 6px;
+    background-color: rgb(226, 147, 0);
+    color: white;
+}
+
+.inlineD {
+    display: inline;
+    background-color: rgb(226, 147, 0);
+    padding: 7px;
+    margin: 5px;
+    color: white;
+}
+
+#firstBlock {
+    display: inline-block;
+    background-color: rgb(226, 147, 0);
+    border-radius: 10px;
+    color: white;
+    padding: 0px 10px;
+    line-height: 0;
+    vertical-align: middle;
+}
+
+#secondBlock {
+    display: inline-block;
+    background-color: rgb(226, 147, 0);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 10px;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+#thirdBlock {
+    display: inline-block;
+    background-color: rgb(226, 147, 0);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 10px;
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    font-size: 0.5em;
+}
+
+#fourthBlock {
+    display: inline-block;
+    background-color: rgb(226, 147, 0);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 10px;
+    width: 60px;
+    height: 100px;
+    vertical-align: middle;
+    font-size: 0.5em;
+}
+
+#fifthBlock {
+    display: inline-block;
+    background-color: rgb(226, 147, 0);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 10px;
+    width: 100px;
+    height: 60px;
+    vertical-align: middle;
+    font-size: 0.5em;
+}

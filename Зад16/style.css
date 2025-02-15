@@ -1,0 +1,26 @@
+body {
+    font-size: 25px;
+}
+
+ul {
+    padding-left: 1.2em;
+}
+
+div {
+    border: 2px black solid;
+    padding: 15px;
+    display: inline-block;
+}
+
+div:nth-child(2) > ul > li {
+    font-size: 2.2rem;
+    color: rgb(174, 0, 0);
+}
+
+div:nth-child(3) > ul {
+    color: green;
+}
+
+div:nth-child(3) > ul ul {
+    font-size: 1.2em;
+}

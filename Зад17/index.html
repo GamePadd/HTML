@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Блочные и строчные элементы</title>
+    </head>
+    <body>
+        <h1>Значение свойства display</h1>
+        <hr>
+        <h2>1. Block</h2>
+        <p>
+            Блочные элементы - элементы высшего уровня, которые форматируются
+            визуально как блоки, располагаясь на странице в окне браузера вертикально.
+            Значения свойства display, такие как block, list-item и table делают элементы
+            блочными. Блочные элементы генерируют основной блок, который содержит
+            только блок элемента. Элементы со значением display: list-item генерируют
+            дополнительные блоки для маркеров, которые позиционируются относительно
+            основного блока.
+        </p>
+        <div class="blockD">blok</div>
+        <div class="blockD">blok</div>
+        <div class="blockD">blok</div>
+        <div class="blockD">blok</div>
+        <div class="blockD">blok</div>
+
+        <h2>2. Inline</h2>
+        <p>
+            Встроенные (строчные) элементы генерируют внутристрочные контейнеры.
+            Они не формируют новые блоки контента. Значения свойства display, такие как
+            inline и inline-table делают элементы строчными.
+        </p>
+        <div class="inlineD">inline</div>
+        <div class="inlineD">inline</div>
+        <div class="inlineD">inline</div>
+        <div class="inlineD">inline</div>
+        <div class="inlineD">inline</div>
+
+        <h2>3. Inline-block</h2>
+        <p>
+            Это значение - означает элемент, который продолжает находиться в строке
+            (inline), но при этом может иметь важные свойства блока. Как и инлайн-
+            элемент: Располагается в строке. Размер устанавливается по содержимому. Во
+            всём остальном - это блок, то есть: Элемент всегда прямоугольный. Работают
+            свойства width/height. Это значение display используют, чтобы отобразить в
+            одну строку блочные элементы, в том числе разных размеров. Например:
+        </p>
+        <div id="firstBlock">
+            <p>Inline-block</p>
+            <p>3 строки</p>
+            <p>высота/ширина явно не заданы</p>
+        </div>
+
+        <div id="secondBlock">Inline-block 100x100</div>
+        <div id="thirdBlock">Inline-block 60x60</div>
+        <div id="fourthBlock">Inline-block 100x60</div>
+        <div id="fifthBlock">Inline-block 60x100</div>
+    </body>
+</html>

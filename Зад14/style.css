@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Tahoma, Arial;
+    width: 80em;
+    margin: 0 auto;
+    background: url(img/main_bg.png) no-repeat grey fixed;
+    background-size: cover;
+}
+
+.header {
+    background-color: rgba(0,0,255,.3);
+}
+
+.header > img {
+    display: inline-block;
+    width: 10em;
+    margin-left: 10em;
+    vertical-align: middle;
+    
+}
+
+.header > h1 {
+    display: inline-block;
+    font-size: 7em;
+    vertical-align: middle;
+}
+
+.header > .nav {
+    width: 80em;
+    border-top: 3px solid black;
+}
+
+.header > .nav > a {
+    text-decoration: none;
+    font-size: 3em;
+    color:black;
+    margin-left: 3.5em;
+}
+
+.header > .nav > a:visited{
+    color:black;
+}
+
+.main {
+    background-color: rgba(0,255,0,.3);
+}
+
+.main > .section:first-child > .article{
+    position:relative;
+}
+
+.main > .section:first-child > .article > img{
+    width: 79.7em;
+    align-self: center;
+}
+
+.main > .section:first-child > .article::before{
+    content: '<';
+    position: absolute;
+    color:black;
+    background-color: rgba(255,255,255,.3);
+    font-size: 5em;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 3.7em;
+    cursor:pointer;
+}
+
+.main > .section:first-child > .article::after{
+    content: '>';
+    position: absolute;
+    color:black;
+    background-color: rgba(255,255,255,.3);
+    font-size: 5em;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-top: 3.7em;
+    right:0px;
+    cursor:pointer;
+}
+
+.main > .section:nth-child(2) {
+    background-color: rgba(255,255,0,.3);
+}
+
+.main > .section:nth-child(2) > .article{
+    display: inline-block;
+    vertical-align: top;
+    width: 20em;
+    margin: 1em 0 1em 5em;
+}
+
+.main > .section:nth-child(2) > .article > h2 {
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.main > .section:nth-child(2) > .article > p {
+    text-align: justify;
+}
+
+.footer {
+    background-color: rgba(255,0,0,.3);
+}
+
+.footer > .nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer > .nav > a{
+    text-decoration: none;
+    font-size: 3em;
+    color:black;
+    margin-left: 3em;
+}
+
+.footer > .nav > a:visited{
+    color:black;
+}
+
+.footer > img {
+    display: inline-block;
+    width: 10em;
+    vertical-align: middle;
+    margin-left: 3em;
+}

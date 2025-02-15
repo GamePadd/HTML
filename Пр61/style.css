@@ -1,0 +1,44 @@
+.layer1 {
+    position: absolute;
+    left:20px;
+    background-color: #f3c;
+    margin: 7px;
+}
+
+.layer2 {
+    position:relative;
+    left:-12px;
+    top:13px;
+    border:1px solid black;
+    padding: 5px;
+    margin: 7px;
+}
+
+#z-index {
+    position: absolute;
+    top:100px;
+}
+
+.pic {
+    position: relative;
+}
+.shade {
+    top:45px;
+    left:60px;
+    z-index: 9
+}
+
+.pic1 {
+    left:-400px;
+    z-index: 5;
+}
+
+.pic2 {
+    top:25px;
+    left:-950px;
+    z-index: 7;
+}
+
+.pic:hover {
+    z-index: 11;
+}

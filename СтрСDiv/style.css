@@ -1,0 +1,51 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+div {
+    background-color: rgb(102, 102, 255);
+}
+
+.content {
+    border: 1px rgb(206, 220, 3) solid;
+    height: 180px;
+}
+
+h1, p {
+    text-align: center;
+    font-size: 3em;
+    font-style: italic;
+    margin: 0;
+}
+
+.header > .content > h1{
+    font-weight: normal;
+    font-size: 5em;
+}
+
+.block1 {
+    float:left;
+    width: 65%;
+}
+.block2 {
+    float:left;
+    width: 35%;
+}
+.block3 {
+    float:left;
+    width: 33.3%;
+}
+.block4 {
+    float:left;
+    width: 33.3%;
+}
+.block5 {
+    float:left;
+    width: 33.3%;
+}
+.footer {
+    clear:both;
+    overflow: hidden;
+    font-size: 1.5em;
+}
