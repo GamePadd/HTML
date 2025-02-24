@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(res/poster_event_1936599.jpg);
+    background-attachment: fixed;
+    padding: 0;
+    font-size: 16px;
+    width: 95%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.flexBlock {
+    padding: 0.4em;
+}
+
+#Header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4em;
+    box-shadow: 0px 0px 15px black;
+    margin-bottom: 1em;
+    border-radius: 25px;
+}
+
+#Header ul li {
+    display: inline;
+}
+
+#Header ul li::after {
+    content: " | ";
+}
+
+a {
+    text-decoration: none;
+    color:black
+}
+
+a:hover {
+    color:brown;
+}
+
+
+.z1 {
+    display: flex;
+    background-color: rgb(218, 230, 218);
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    border-radius: 15px;
+    margin-bottom: 1em;
+    box-shadow: 0px 0px 15px black;
+}
+
+img.latuk {
+    border-radius: 25px;
+    width: 75%;
+    margin: 1em;
+    padding: 0em;
+    box-shadow: 0px 0px 5px black;
+    transform: rotate(2deg);
+}
+
+img.latuk2 {
+    border-radius: 25px;
+    width: 75%;
+    margin: 1em;
+    padding: 0em;
+    box-shadow: 0px 0px 5px black;
+    transform: rotate(-2deg);
+}
+
+.z1 .textblock {
+    width: 60%;
+    font-size: 1.8em;
+}
+
+.z2 .textblock {
+    width: 60%;
+    font-size: 1.8em;
+    margin: 1em;
+}
+
+.z2 {
+    display: flex;
+    background-color: rgb(232, 213, 213);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.pidor {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    margin-right: 1em;
+    box-shadow: 0px 0px 15px black;
+    padding: 1em;
+}
+
+.footer {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: white;
+    width: 100%;
+    height: 3em;
+    font-size: 1.3em;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 25px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+li {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+.headText {
+    padding-right: 2em;
+    padding-left: 2em;
+    border-right: 5px groove black;
+}
